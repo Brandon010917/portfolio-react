@@ -1,6 +1,7 @@
 import html from "../../assets/html.svg";
 import css from "../../assets/css.svg";
 import bootstrap from "../../assets/bootstrap.svg";
+import tailwind from "../../assets/tailwind.svg";
 import javascript from "../../assets/javascript.svg";
 import react from "../../assets/react.svg";
 import redux from "../../assets/redux.svg";
@@ -20,6 +21,10 @@ const skillsData = [
   {
     technology: "Bootstrap",
     img: bootstrap,
+  },
+  {
+    technology: "Tailwind",
+    img: tailwind,
   },
   {
     technology: "JavaScript",
