@@ -5,12 +5,12 @@ import "./scss/index.scss";
 import "hamburgers/_sass/hamburgers/hamburgers.scss";
 
 // React router dom
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <App />
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
