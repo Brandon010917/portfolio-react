@@ -1,0 +1,54 @@
+@use "../../scss/utils/index" as utils;
+
+.skills {
+  .title {
+    text-align: center;
+    line-height: 24px;
+    padding-bottom: 1.25rem;
+
+    .span {
+      border-bottom: 2px solid utils.$color-border;
+    }
+  }
+
+  .container {
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+    max-width: 900px;
+    margin: 0 auto;
+
+    @include utils.breakpoint(utils.$size-lg) {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+    }
+
+    .card {
+      background-color: white;
+      padding: 1.25rem;
+      line-height: 24px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      border-radius: 0.75rem;
+      transition: all utils.$duration linear;
+
+      @include utils.hover {
+        transform: translateY(-5px);
+        box-shadow: utils.$box-shadow;
+      }
+
+      @include utils.breakpoint(utils.$size-lg) {
+        min-width: 280px;
+      }
+
+      .icon {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+}

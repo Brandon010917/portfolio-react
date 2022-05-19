@@ -1,0 +1,115 @@
+@use "../../scss/utils/index" as utils;
+
+.header {
+  background-color: utils.$white;
+  padding: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  box-shadow: utils.$box-shadow;
+
+  @include utils.breakpoint(utils.$size-md) {
+    justify-content: space-around;
+    border-radius: 0.375rem;
+  }
+
+  .logo {
+    color: utils.$black-opacity;
+    text-transform: uppercase;
+    line-height: 24px;
+    cursor: pointer;
+  }
+
+  .btn-hamburger {
+    background-color: utils.$gray-light;
+    border-radius: 0.375rem;
+    max-height: 48px;
+    transform: scale(0.8);
+    z-index: 100;
+
+    @include utils.breakpoint(utils.$size-md) {
+      display: none;
+    }
+  }
+
+  .navbar-desktop {
+    display: none;
+
+    @include utils.breakpoint(utils.$size-md) {
+      display: block;
+    }
+
+    .items {
+      @include utils.breakpoint(utils.$size-md) {
+        margin-left: 0.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1.5rem;
+      }
+
+      @include utils.breakpoint(utils.$size-lg) {
+        gap: 2.5rem;
+      }
+
+      @include utils.breakpoint(utils.$size-xl) {
+        gap: 4rem;
+      }
+
+      .item {
+        font-size: 14px;
+        text-transform: uppercase;
+        color: utils.$gray;
+        transition: color utils.$duration ease;
+
+        @include utils.breakpoint(utils.$size-md) {
+          letter-spacing: 2px;
+        }
+
+        @include utils.hover() {
+          color: utils.$black;
+        }
+
+        .is-active {
+          color: utils.$black;
+        }
+      }
+    }
+  }
+
+  .navbar-mobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(133, 133, 133);
+    z-index: 10;
+
+    .items {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 4rem;
+
+      .item {
+        font-size: 2rem;
+        text-transform: uppercase;
+        color: utils.$white;
+        transition: color utils.$duration ease;
+        letter-spacing: 2px;
+
+        @include utils.hover() {
+          color: utils.$black;
+        }
+
+        .is-active {
+          color: utils.$black;
+        }
+      }
+    }
+  }
+}

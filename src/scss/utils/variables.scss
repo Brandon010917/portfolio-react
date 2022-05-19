@@ -1,0 +1,22 @@
+// Colors
+$white: rgb(255, 255, 255);
+$black: rgb(0, 0, 0);
+$black-opacity: rgb(26, 32, 44);
+$gray: rgb(133, 133, 133);
+$gray-light: rgb(237, 242, 247);
+$color-border: rgb(113, 128, 150);
+
+$bg-secondary: rgb(237, 242, 247);
+$text-secondary: rgb(113, 128, 150);
+
+// Transition Duration
+$duration: 300ms;
+
+// Shadow
+$box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+  0 2px 4px -1px rgba(0, 0, 0, 0.06);
+
+//BreakPoints Size
+$size-md: 48rem; //768px
+$size-lg: 64rem; //1024px
+$size-xl: 80rem; //1280px
