@@ -1,13 +1,18 @@
-// Colors
-$white: rgb(255, 255, 255);
-$black: rgb(0, 0, 0);
-$black-opacity: rgb(26, 32, 44);
-$gray: rgb(133, 133, 133);
-$gray-light: rgb(237, 242, 247);
-$color-border: rgb(113, 128, 150);
+// Fonts
+$poppins: "Poppins", sans-serif;
 
-$bg-secondary: rgb(237, 242, 247);
-$text-secondary: rgb(113, 128, 150);
+// Colors
+$white: #ffffff;
+$black: #000000;
+$green: #0ad078;
+$black-opacity: #1a202c;
+$gray: #858585;
+$gray-light: #edf2f7;
+$color-border: #718096;
+
+$bg-primary: #212529;
+$bg-secondary: #edf2f7;
+$text-secondary: #718096;
 
 // Transition Duration
 $duration: 300ms;
