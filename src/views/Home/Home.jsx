@@ -1,6 +1,5 @@
 // Styles
 import "./Home.styles.scss";
-// Image
 // Framer motion
 import { motion } from "framer-motion";
 // cv
