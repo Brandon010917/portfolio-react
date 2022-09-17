@@ -1,7 +1,5 @@
 // React router dom
 import { NavLink } from "react-router-dom";
-// Framer motion
-import { motion } from "framer-motion";
 
 const links = ["", "skills", "projects", "contact"];
 
@@ -18,17 +16,17 @@ const containerVariants = {
   },
 };
 
-const NavbarMobile = ({ handleNavbarMobile }) => {
+const NavbarMobile = ({ handleNavbarMobile, isActiveNavbarModbile }) => {
   return (
-    <motion.nav
-      className="navbar-mobile"
+    <nav
+      className={`navbar-mobile ${isActiveNavbarModbile}`}
       variants={containerVariants}
       initial="hidden"
       animate="show"
     >
-      <ul className="items">
+      <ul className="nav-items">
         {links.map((link) => (
-          <li key={link} className="item">
+          <li key={link} className="nav-item">
             <NavLink
               to={`/${link}`}
               className={({ isActive }) =>
@@ -41,7 +39,7 @@ const NavbarMobile = ({ handleNavbarMobile }) => {
           </li>
         ))}
       </ul>
-    </motion.nav>
+    </nav>
   );
 };
 

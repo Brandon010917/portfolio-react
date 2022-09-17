@@ -1,3 +1,5 @@
+@use "./utils/variables.scss" as utils;
+
 *,
 *::before,
 *::after {
@@ -11,16 +13,9 @@ html {
 }
 
 body {
-  font-family: "Outfit", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-feature-settings: "kern";
-  background-color: rgb(247, 250, 252);
-  color: rgb(26, 32, 44);
-
-  @media screen and (min-width: (768px)) {
-    padding: 2rem 1.25rem 1.25rem;
-  }
+  font-family: utils.$poppins;
+  background-color: #212529;
+  color: #fff;
 }
 
 body::-webkit-scrollbar {
@@ -56,4 +51,8 @@ ul {
 
 section {
   padding: 1.25rem;
+}
+
+img {
+  max-width: 100%;
 }
