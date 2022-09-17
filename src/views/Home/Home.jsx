@@ -33,7 +33,7 @@ const Home = () => {
       exit="exit"
     >
       <img
-        className="image"
+        className="image-brandon"
         src="/images/brandon.webp"
         alt="Image Brandon"
         loading="lazy"
@@ -42,7 +42,7 @@ const Home = () => {
       <div className="content">
         <h1 className="title">Hi, I'm BRANDON 👋</h1>
         <p className="subtitle">
-          a passionate <span className="span">Frontend Developer</span>.
+          A passionate <span className="span">Frontend Web Developer.</span>
         </p>
         <p className="text">
           I'm a detailed-oriented, self-taught and disciplined person who
@@ -50,11 +50,9 @@ const Home = () => {
         </p>
       </div>
       <div className="cv">
-        <div className="container">
-          <a href={cv} target="_blank" className="btn-cv">
-            Checkout my resume
-          </a>
-        </div>
+        <a href={cv} target="_blank" className="btn-cv">
+          Checkout my resume
+        </a>
       </div>
     </motion.section>
   );
