@@ -1,7 +1,7 @@
 // Images
-import github from "../../assets/github.svg";
-import linkedin from "../../assets/linkedin.svg";
-import twitter from "../../assets/twitter.svg";
+import github from "/images/icons/github.svg";
+import linkedin from "/images/icons/linkedin.svg";
+import twitter from "/images/icons/twitter.svg";
 
 const contactData = [
   {

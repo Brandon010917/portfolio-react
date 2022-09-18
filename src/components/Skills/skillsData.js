@@ -1,54 +1,67 @@
-import html from "../../assets/html.svg";
-import css from "../../assets/css.svg";
-import bootstrap from "../../assets/bootstrap.svg";
-import tailwind from "../../assets/tailwind.svg";
-import javascript from "../../assets/javascript.svg";
-import react from "../../assets/react.svg";
-import redux from "../../assets/redux.svg";
-import node from "../../assets/node.svg";
-import express from "../../assets/express.svg";
-import postgresql from "../../assets/postgresql.svg";
-
 const skillsData = [
   {
     technology: "HTML 5",
-    img: html,
+    src: "/images/icons/html.svg",
   },
   {
     technology: "CSS 3",
-    img: css,
+    src: "/images/icons/css.svg",
+  },
+  {
+    technology: "Sass",
+    src: "/images/icons/sass.svg",
   },
   {
     technology: "Bootstrap",
-    img: bootstrap,
+    src: "/images/icons/bootstrap.svg",
   },
   {
     technology: "Tailwind",
-    img: tailwind,
+    src: "/images/icons/tailwind.svg",
   },
   {
     technology: "JavaScript",
-    img: javascript,
+    src: "/images/icons/javascript.svg",
+  },
+  {
+    technology: "TypeScript",
+    src: "/images/icons/typescript.svg",
   },
   {
     technology: "React",
-    img: react,
+    src: "/images/icons/react.svg",
+  },
+  {
+    technology: "Next.js",
+    src: "/images/icons/nextjs.svg",
   },
   {
     technology: "Redux",
-    img: redux,
+    src: "/images/icons/redux.svg",
   },
   {
     technology: "Node",
-    img: node,
+    src: "/images/icons/node.svg",
   },
   {
     technology: "Express",
-    img: express,
+    src: "/images/icons/express.svg",
+  },
+  {
+    technology: "GraphQL",
+    src: "/images/icons/graphql.svg",
+  },
+  {
+    technology: "GraphCMS",
+    src: "/images/icons/graphcms.svg",
+  },
+  {
+    technology: "Apollo",
+    src: "/images/icons/apollographql.svg",
   },
   {
     technology: "PostgreSQL",
-    img: postgresql,
+    src: "/images/icons/postgresql.svg",
   },
 ];
 

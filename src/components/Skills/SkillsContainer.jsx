@@ -6,8 +6,8 @@ import SkillCard from "./SkillCard";
 const SkillsContainer = () => {
   return (
     <div className="container">
-      {skillsData.map(({ technology, img }) => (
-        <SkillCard key={technology} technology={technology} img={img} />
+      {skillsData.map(({ technology, src }) => (
+        <SkillCard key={technology} technology={technology} src={src} />
       ))}
     </div>
   );

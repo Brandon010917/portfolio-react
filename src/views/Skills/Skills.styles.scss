@@ -5,9 +5,11 @@
     text-align: center;
     line-height: 24px;
     padding-bottom: 1.25rem;
+    font-size: 1.25rem;
+    font-weight: 600;
 
     .span {
-      border-bottom: 2px solid utils.$color-border;
+      border-bottom: 2px solid utils.$green;
     }
   }
 
@@ -27,14 +29,17 @@
     }
 
     .card {
-      background-color: white;
+      background-color: utils.$white;
+      color: utils.$black;
       padding: 1.25rem;
       line-height: 24px;
       display: flex;
       align-items: center;
       gap: 12px;
       border-radius: 0.75rem;
+      font-weight: 400;
       transition: all utils.$duration linear;
+      cursor: pointer;
 
       @include utils.hover {
         transform: translateY(-5px);

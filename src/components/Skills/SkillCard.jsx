@@ -1,8 +1,8 @@
-const SkillCard = ({ img, technology }) => {
+const SkillCard = ({ src, technology }) => {
   return (
     <article className="card">
       <img
-        src={img}
+        src={src}
         alt={`Logo ${technology}`}
         className="icon"
         loading="lazy"
