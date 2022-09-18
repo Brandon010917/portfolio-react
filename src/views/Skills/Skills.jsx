@@ -31,7 +31,8 @@ const Skills = () => {
       exit="exit"
     >
       <p className="title">
-        Here are the <span className="span">technologies</span> I've worked with and I'm familiar with
+        These are the <span className="span">technologies</span> I've worked and
+        I'm familiar with
       </p>
       <SkillsContainer />
     </motion.section>
