@@ -4,9 +4,9 @@
   padding: 1.25rem;
 
   .title {
-    border-bottom: 2px solid utils.$color-border;
+    border-bottom: 2px solid utils.$green;
     width: max-content;
-    margin: 0 auto calc(1.25rem - 2px);
+    margin: 0 auto 1.25rem;
   }
 
   .container {
@@ -27,7 +27,7 @@
       padding: 0 1.25rem;
 
       .span {
-        border-bottom: 2px solid utils.$color-border;
+        border-bottom: 2px solid utils.$green;
       }
     }
 
@@ -61,6 +61,7 @@
 
         .social {
           width: max-content;
+          color: utils.$black;
         }
 
         @include utils.hover {

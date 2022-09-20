@@ -1,26 +1,27 @@
-// Images
-import github from "/images/icons/github.svg";
-import linkedin from "/images/icons/linkedin.svg";
-import twitter from "/images/icons/twitter.svg";
-
 const contactData = [
   {
     title: "/Brandon010917",
-    img: github,
+    src: "/images/icons/github.svg",
     link: "https://github.com/Brandon010917",
     social: "Github",
   },
   {
     title: "/brandon-leal",
-    img: linkedin,
+    src: "/images/icons/linkedin.svg",
     link: "https://www.linkedin.com/in/brandon-leal",
     social: "Linkedin",
   },
   {
     title: "/brandonleal83",
-    img: twitter,
+    src: "/images/icons/twitter.svg",
     link: "https://twitter.com/brandonleal83",
     social: "Twitter",
+  },
+  {
+    title: "/+584260351166",
+    src: "/images/icons/whatsapp.svg",
+    link: "https://wa.me/584260351166",
+    social: "Whatsapp",
   },
 ];
 
