@@ -5,9 +5,11 @@
     text-align: center;
     line-height: 24px;
     padding-bottom: 1.25rem;
+    font-size: 1.25rem;
+    font-weight: 500;
 
     .span {
-      border-bottom: 2px solid utils.$color-border;
+      border-bottom: 2px solid utils.$green;
     }
   }
 
@@ -37,6 +39,7 @@
         font-size: 1.25rem;
         line-height: 30px;
         color: utils.$black;
+        font-weight: 500;
       }
 
       .technologies {
@@ -75,9 +78,12 @@
           background-color: utils.$gray-light;
           border-radius: 0.5rem;
           cursor: pointer;
+          color: utils.$black;
+          transition: all utils.$duration ease;
 
           &:hover {
             text-decoration: underline;
+            background-color: utils.$green;
           }
         }
       }

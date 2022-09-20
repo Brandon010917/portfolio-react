@@ -31,8 +31,7 @@ const Projects = () => {
       exit="exit"
     >
       <p className="title">
-        Here are the <span className="span">projects</span> I'm worked on so
-        far!
+        These are the <span className="span">projects</span> I worked on so far!
       </p>
       <ProjectsContainer />
     </motion.section>

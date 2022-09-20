@@ -1,6 +1,7 @@
 // Data
-import ProjectCard from "./ProjectCard";
 import projectsData from "./projectsData";
+// Component
+import ProjectCard from "./ProjectCard";
 
 const ProjectsContainer = () => {
   return (
