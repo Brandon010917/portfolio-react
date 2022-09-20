@@ -3,7 +3,7 @@ import "./Home.styles.scss";
 // Framer motion
 import { motion } from "framer-motion";
 // cv
-import cv from "../../assets/CurriculumBrandon.pdf";
+import cv from "../../assets/cv-brandon-leal.pdf";
 
 const containerVariants = {
   hidden: {
