@@ -1,6 +1,7 @@
 // Data
-import ContactCard from "./ContactCard";
 import contactData from "./contactData";
+// Component
+import ContactCard from "./ContactCard";
 
 const ContactSocials = () => {
   return (
@@ -9,7 +10,7 @@ const ContactSocials = () => {
         <ContactCard
           key={social.social}
           title={social.title}
-          img={social.img}
+          src={social.src}
           link={social.link}
           social={social.social}
         />

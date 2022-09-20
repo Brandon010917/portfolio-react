@@ -7,8 +7,8 @@ import Projects from "./views/Projects/Projects";
 import Skills from "./views/Skills/Skills";
 // Components
 import Header from "./components/Header/Header";
+// Framer-motion
 import { AnimatePresence } from "framer-motion";
-// Context
 
 const App = () => {
   const location = useLocation();
