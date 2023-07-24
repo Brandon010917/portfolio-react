@@ -18,9 +18,9 @@ const contactData = [
     social: "Twitter",
   },
   {
-    title: "/+584260351166",
+    title: "/+584241966497",
     src: "/images/icons/whatsapp.svg",
-    link: "https://wa.me/584260351166",
+    link: "https://wa.me/584241966497",
     social: "Whatsapp",
   },
 ];
